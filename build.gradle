@@ -14,8 +14,11 @@ group 'gr.di.uoa.pliakos.databasesystems'
 version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
+
+mainClassName = 'gr.di.uoa.pliakos.databasesystems.SpringBootPostgresExample'
 
 repositories {
     mavenCentral()
