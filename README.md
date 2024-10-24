@@ -5,4 +5,6 @@ Sample application using Spring Boot + Spring JPA with PostgreSQL database, Thym
 
 ## Execution:
 
+Requires Java 8
+
 `gradle clean bootRun`
